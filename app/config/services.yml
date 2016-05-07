@@ -1,0 +1,16 @@
+parameters:
+    pagerfanta.view.default.class: Pagerfanta\View\DefaultView
+
+services:
+    twig.extension.text:
+        class: Twig_Extensions_Extension_Text
+        tags:
+            - { name: twig.extension }
+
+    mongodb_acl_provider:
+        parent: doctrine_mongodb.odm.security.acl.provider
+
+    pagerfanta.view.default:
+        class: %pagerfanta.view.default.class%
+        public: false
+        tags: [{ name: pagerfanta.view, alias: default }]

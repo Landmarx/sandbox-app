@@ -1,0 +1,12 @@
+suites:
+    Collection : { namespace: Landmarx, spec_path: src/Landmarx/Component/Collection }
+    Core       : { namespace: Landmarx, spec_path: src/Landmarx/Component/Core }
+    Landmark   : { namespace: Landmarx, spec_path: src/Landmarx/Component/Landmark }
+    Resource   : { namespace: Landmarx, spec_path: src/Landmarx/Component/Resource }
+    User       : { namespace: Landmarx, spec_path: src/Landmarx/Component/User }
+    
+    CollectionBundle : { namespace: Landmarx, spec_path: src/Landmarx/Bundle/CollectionBundle }
+    CoreBundle       : { namespace: Landmarx, spec_path: src/Landmarx/Bundle/CoreBundle }
+    LandmarkBundle   : { namespace: Landmarx, spec_path: src/Landmarx/Bundle/LandmarkBundle }
+    ResourceBundle   : { namespace: Landmarx, spec_path: src/Landmarx/Bundle/ResourceBundle }
+    UserBundle       : { namespace: Landmarx, spec_path: src/Landmarx/Bundle/UserBundle }

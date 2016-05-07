@@ -1,0 +1,31 @@
+{
+    "name": "landmarx/fixtures-bundle",
+    "type": "symfony-bundle",
+    "description": "Landmarx fixtures bundle. It contains the fixtures for the landmarx system",
+    "keywords": [
+        "fixtures"
+    ],
+    "homepage": "http://daviddurost.net/projects/landmarx",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "1.2.*",
+        "doctrine/doctrine-fixtures-bundle": "2.2.*"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Landmarx\\Bundle\\FixturesBundle\\": ""
+        }
+    }
+}

@@ -1,0 +1,42 @@
+# Misc
+.vagrant*
+# Parameters
+!app/logs/.gitkeep
+/.idea
+/app/logs/*
+.project/
+/vendor/
+/app/bootstrap.php.cache
+/app/phpunit.xml
+/web/uploads/
+!var/cache/.gitkeep
+/app/config/parameters.ini
+!var/logs/.gitkeep
+/app/logs
+/phpunit.xml
+/composer.phar
+/bin/*
+/app/cache
+composer.phar
+/app/config/parameters.yml
+# Cache and logs (Symfony2)
+/var/logs/*
+/build/
+# Managed by Composer
+# Composer PHAR
+# Assets and user uploads
+!app/cache/.gitkeep
+*~
+vagrant/Personalization
+# Vagrant
+!bin/symfony_requirements
+/var/bootstrap.php.cache
+!bin/console
+# PHPUnit
+/vendor
+/app/cache/*
+/web/bundles/
+/var/cache/*
+# Cache and logs (Symfony3)
+# Build data
+/vagrant/.vagrant

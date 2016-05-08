@@ -1,0 +1,30 @@
+[submodule "vagrant"]
+	path = vagrant
+	url = https://github.com/landmarx/vagrant.git
+[submodule "user-bundle"]
+        path = src/Landmarx/Bundle/UserBundle
+        url = http://github.com/landmarx/UserBundle.git
+[submodule "geolocation-bundle"]
+        path = src/Landmarx/Bundle/GeoLocationBundle
+        url = http://github.com/landmarx/GeoLocationBundle.git
+[submodule "core-bundle"]
+        path = src/Landmarx/Bundle/CoreBundle
+        url = http://github.com/landmarx/CoreBundle.git
+[submodule "breadcrumbs-bundle"]
+        path = src/Landmarx/Bundle/BreadcrumbsBundle
+        url = http://github.com/landmarx/BreadcrumbsBundle.git
+[submodule "web-bundle"]
+        path = src/Landmarx/Bundle/WebBundle
+        url = http://github.com/landmarx/WebBundle.git
+[submodule "attributes-bundle"]
+        path = src/Landmarx/Bundle/AttributeBundle
+        url = http://github.com/landmarx/AttributeBundle.git
+[submodule "landmark-bundle"]
+        path = src/Landmarx/Bundle/LandmarkBundle
+        url = http://github.com/landmarx/LandmarkBundle.git
+[submodule "colleciton-bundle"]
+        path = src/Landmarx/Bundle/CollectionBundle
+        url = http://github.com/landmarx/CollectionBundle.git        
+[submodule "fixtures-bundle"]
+        path = src/Landmarx/Bundle/FixturesBundle
+        url = http://github.com/landmarx/FixturesBundle.git

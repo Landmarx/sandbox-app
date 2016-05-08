@@ -1,30 +1,30 @@
 [submodule "vagrant"]
 	path = vagrant
-	url = https://github.com/landmarx/vagrant.git
+	url = https://github.com/Landmarx/vagrant.git
 [submodule "user-bundle"]
         path = src/Landmarx/Bundle/UserBundle
-        url = http://github.com/landmarx/UserBundle.git
+        url = http://github.com/Landmarx/UserBundle.git
 [submodule "geolocation-bundle"]
         path = src/Landmarx/Bundle/GeoLocationBundle
-        url = http://github.com/landmarx/GeoLocationBundle.git
+        url = http://github.com/Landmarx/GeoLocationBundle.git
 [submodule "core-bundle"]
         path = src/Landmarx/Bundle/CoreBundle
-        url = http://github.com/landmarx/CoreBundle.git
+        url = http://github.com/Landmarx/CoreBundle.git
 [submodule "breadcrumbs-bundle"]
         path = src/Landmarx/Bundle/BreadcrumbsBundle
-        url = http://github.com/landmarx/BreadcrumbsBundle.git
+        url = http://github.com/Landmarx/BreadcrumbsBundle.git
 [submodule "web-bundle"]
         path = src/Landmarx/Bundle/WebBundle
-        url = http://github.com/landmarx/WebBundle.git
+        url = http://github.com/Landmarx/WebBundle.git
 [submodule "attributes-bundle"]
         path = src/Landmarx/Bundle/AttributeBundle
-        url = http://github.com/landmarx/AttributeBundle.git
+        url = http://github.com/Landmarx/AttributeBundle.git
 [submodule "landmark-bundle"]
         path = src/Landmarx/Bundle/LandmarkBundle
-        url = http://github.com/landmarx/LandmarkBundle.git
+        url = http://github.com/Landmarx/LandmarkBundle.git
 [submodule "colleciton-bundle"]
         path = src/Landmarx/Bundle/CollectionBundle
-        url = http://github.com/landmarx/CollectionBundle.git        
+        url = http://github.com/Landmarx/CollectionBundle.git        
 [submodule "fixtures-bundle"]
         path = src/Landmarx/Bundle/FixturesBundle
-        url = http://github.com/landmarx/FixturesBundle.git
+        url = http://github.com/Landmarx/FixturesBundle.git
